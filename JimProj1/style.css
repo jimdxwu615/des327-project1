@@ -1,0 +1,219 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="styleshee');
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CFPrEHJA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+*/
+
+/*header css starts here*/
+
+body {
+    background-color: #AB9F9D;
+    margin: 0;
+/*    font-family: "Raleway";*/
+    width: 100%;
+}
+
+#carpage1 {
+    background-image: url("images/car1lessopacity.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#carpage2 {
+    background-image: url("images/car2lessopacity.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#carpage3 {
+    background-image: url("images/car3lessopacity.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.container,carcontainer {
+    background-color: #DDDBF1;
+    padding: 10px 50px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+div.carcontainer {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    position: absolute;
+}
+
+div.left {
+    float: left;
+}
+
+div.right {
+    float: right;
+}
+
+div.right ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+div.right ul li a {
+    text-decoration: none;
+    color: #383F51;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+div.right ul li a:hover {
+    color: #f44336;
+}
+
+div.center {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px;
+    color: #383F51;
+}
+
+.navitem {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+ul,li {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.center nav ul li a {
+    text-decoration: none;
+    color: #383F51;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+div.center nav ul li a:hover {
+    color: #f44336;
+}
+
+/*landing page image CSS*/
+div.photos {
+    width: 1005px;
+    padding-top: 150px;
+    margin: 0px auto;
+}
+div.bigger {
+    transition: 1s;
+}
+div.bigger:hover{
+    transform: scale(1.05);
+    z-index: 99;
+}
+
+img.one {
+    float: left;
+    margin-right: 5px;
+}
+
+img.small {
+    width: 500px;
+    height: auto;
+}
+
+img.large {
+    width: 100%;
+    height: auto;
+}
+
+img.storyphoto {
+    width: 100%;
+    height: auto;
+}
+
+/*car page content starts here*/
+
+h1.carpagetitle {
+    padding: 400px 0px;
+    margin: 0px auto;
+    text-align: center;
+    color: #383F51;
+}
+
+div.mod {
+    width: 200px;
+    margin-top: 10px;
+    float: right;
+    background-color: #D1BEB0;
+    color: #3C4F76;
+    padding: 0px 10px 10px 10px;
+}
+div.mod ul {
+    list-style-type: none;
+}
+
+.carpagemain {
+    padding: 100px 100px 50px 100px;
+    margin: 0px auto;
+    width: 50%;
+    color: #383F51;
+}
+
+
+/*content css starts here*/
+
+main {
+    padding: 150px 100px 50px 100px;
+    margin: 0px auto;
+    width: 50%;
+    color: #383F51;
+    overflow: auto;
+}
+
+.content {
+    background-color: #D1BEB0;
+    top: 0px;
+}
+
+/*video page iframe css*/
+div.videos {
+    padding-top: 150px;
+    margin: 0px auto;
+    width: 1005px;
+}
+
+iframe.large {
+    width: 1005px;
+    height: 565.3px;
+}
+
+iframe.small {
+    width: 500px;
+    height: 281px;
+}
+
+iframe.left {
+    margin-right: 5px;
+    float: left;
+}
+
+/*contact page CSS*/
+#contact {
+    text-align: center;
+}
+
+#contact h3 a {
+    text-decoration: none;
+    background-color: #DDDBF1;
+    color: #383F51;
+    border: solid 2px;
+    padding: 5px;
+}
